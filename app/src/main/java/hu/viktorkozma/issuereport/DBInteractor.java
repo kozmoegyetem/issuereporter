@@ -1,12 +1,16 @@
 package hu.viktorkozma.issuereport;
 
+import java.util.List;
+
+import hu.viktorkozma.issuereport.Data.Issue;
+
 public interface DBInteractor {
-    void findAll();
+    public List<Issue> findAll();
 
-    void findByID();
+    public Issue findByID();
 
-    void save();
+    public Issue save();
 
-    void sync();
+    public Issue sync();
 
 }
