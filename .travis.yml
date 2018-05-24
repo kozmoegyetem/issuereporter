@@ -19,7 +19,7 @@ before_install:
 notifications:
     email:
         recipients:
-        - bugar.tamas94@gmail.com
+        - kozma.viktor.richard@gmail.com
         on_success: always
         on_failure: always
 env:
