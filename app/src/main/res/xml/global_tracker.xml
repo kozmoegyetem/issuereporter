@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="ga_trackingId"
+        translatable="false">UA-119805669-1
+    </string>
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.kozmosz.issues.ui.damage.list.DamageListActivity">
+        DamageListActivity
+    </screenName>
+    <screenName name="com.kozmosz.issues.ui.damage.detail.DamageDetailActivity">
+        DamageDetailActivity
+    </screenName>
+</resources>
